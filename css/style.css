@@ -67,6 +67,8 @@ body {
 .wrapper {
     overflow: hidden;
     background-color: #fff;
+    position: relative;
+    bottom: -10px;
 }
 .section-overlay {
     background-color: rgba(0, 0, 0, 0.7);
@@ -77,7 +79,7 @@ body {
 .team .container,
 .blog .container,
 .contact .container {
-    padding: 70px 15px !important;
+    /* padding: 70px 15px !important; */
 }
 .about .container,
 .team .container {
@@ -716,7 +718,7 @@ body.reversed-skew .shop-checkout .container {
 body.reversed-skew .services,
 body.reversed-skew .pricing,
 body.reversed-skew .team {
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
   margin-top: -50px;
   border-top: 60px solid #efefef;
 }
@@ -767,13 +769,13 @@ body.reversed-skew .portfolio {
 }
 
 body.reversed-skew .contact {
-  margin-bottom: 100px;
-      margin-top: -60px;
-    padding-top: 60px;
+margin-top: -60px;
+  /* margin-bottom: 60px;
+    /* padding-top: 50px; */
 }
 
 body.reversed-skew .contactform {
-  margin-top: -150px;
+  margin-top: -80px;
 }
 
 body.reversed-skew .contactform .section-overlay {
@@ -797,8 +799,8 @@ body.reversed-skew .bx-wrapper {
 }
 
 body.reversed-skew .info-map-boxes {
-  margin-top: -285px;
-      padding-bottom: 130px;
+   margin-top: -205px;
+      padding-bottom: 190px; */
 }
 
 body.reversed-skew .footer {
@@ -815,7 +817,7 @@ body.reversed-skew .footer .container {
   transform: skewY(3deg);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  padding: 120px 0;
+  padding: 50px 0;
 }
 
 body.reversed-skew .projectmanager .container,
@@ -1075,7 +1077,7 @@ body.double-diagonal .footer .container {
 }
 
 body.double-diagonal .contact .container:first-child {
-	padding: 50px 15px 30px !important; 
+	padding: 50px 15px 30px !important;
 }
 
 
@@ -1350,7 +1352,8 @@ p {
     font-weight: 400;
     margin-bottom: 15px;
     margin-top: 0px;
-    color: #666;
+    /* color: #666; */
+    color: #000;
 }
 .top-text h4 {
     margin: 15px 0 25px;
@@ -1454,17 +1457,30 @@ a:hover {
 }
 .logo a img {
     width: 100%;
+
     transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -webkit-transition: all 0.3s ease 0s;
 }
 .header .logo a img.logo-light {
+  width: 100%;
+  height: 300%;
     opacity: 1;
 }
 .header .logo a img.logo-dark {
+  width: 100%;
+  height: 300%;
     opacity: 0;
 }
+.logo a img.logo-light {
+  position: relative;
+  position: relative;
+  top: 5px;
+  left: 170px;
+}
+
+
 .header.header-fixed .logo a img.logo-light {
     opacity: 0;
 }
@@ -1487,9 +1503,10 @@ a:hover {
 }
 .logo a img {
     width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+    height: 300%;
+    position: relative;
+    bottom: : 10px;
+    left: 15px;
     transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
     -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
     -moz-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
@@ -1505,6 +1522,7 @@ body.dark .header .logo a img.logo-dark {
 }
 body.dark .header.header-fixed .logo a img.logo-light {
     opacity: 1;
+
 }
 body.dark .header.header-fixed .logo a img.logo-dark {
     opacity: 0;
@@ -1517,6 +1535,7 @@ body.dark .header.header-fixed .logo a img.logo-dark {
 }
 .nav-menu.active {
     display: block;
+
 }
 .nav-menu ul.nav-menu-inner {
     margin: 0;
@@ -1684,7 +1703,7 @@ body.dark .header.header-fixed .logo a img.logo-dark {
     -webkit-transform: translateX(0);
     transform: translateX(0);
 }
-/* Preloader 
+/* Preloader
 ---------------------------------------- */
 
 .preloader {
@@ -3007,7 +3026,7 @@ body.blog-page article .comments-form .custom-button:before {
 ---------------------------------------- */
 
 .contact {
-    background-color: #efefef;
+    background-color: #EEEEEE;
 }
 .contact .container:first-child {
     padding: 100px 15px 30px !important;
@@ -3059,11 +3078,15 @@ body.blog-page article .comments-form .custom-button:before {
 .info-map-boxes-item {
   padding: 18px 20px 15px;
   width: 100%;
+  border: 1px;
+  border-color: #000000;
   border-radius: 7px;
   font-size: 14px;
   color: inherit;
   background: #fff;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.03), 0 0 7px rgba(0, 0, 0, 0.15);
+  position: relative;
+  bottom: 30px;
 }
 
 .info-map-boxes-item:before {
@@ -3181,12 +3204,18 @@ body.blog-page article .comments-form .custom-button:before {
 
 .logos {
     background-color: #fff;
+    position: relative;
+    bottom: 10px;
 }
 .bx-wrapper {
     margin: 70px 0 70px;
 }
 ul.bxslider img {
-    opacity: 0.7;
+    opacity: 0.9;
+}
+.lastlogo{
+  width: 200px;
+  height: 70px;
 }
 
 /* Banner */
@@ -3520,17 +3549,22 @@ body.dark.blog-page .banner-blog-post .meta {
 /*================================================== */
 
 .footer {
-    padding: 40px 0;
+    padding: 60px 0;
     background-color: #111;
+    /* position: relative;
+    bottom: 180px;
+    margin-top: -100px; */
+    /* min-height: 100%; */
+
 }
 .footer .container {
-    padding: 30px 0;
+    padding: 20px 0;
 }
 .footer,
 .footer a,
 .footer p {
     color: #fff;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     text-transform: lowercase;
 }
 .footer .container p:first-child {
@@ -3543,7 +3577,7 @@ body.dark.blog-page .banner-blog-post .meta {
     line-height: 40px;
 }
 .footer .social-icons ul li a:before {
-    font-size: 21px;
+    font-size: 24px;
 }
 /* Responsive Design Styles
 ---------------------------------------- */
@@ -3570,10 +3604,10 @@ body.dark.blog-page .banner-blog-post .meta {
         margin: 0 auto 50px;
     }
 }
-  
+
 /* Small Devices */
 @media (max-width: 991px) {
-	
+
 	body.dark .nav-menu ul.nav-menu-inner li a, body.dark .header-fixed .nav-menu ul.nav-menu-inner li a {
 	    border-top: 1px solid #343434;
 }
@@ -3609,7 +3643,7 @@ body.dark.blog-page .banner-blog-post .meta {
 	   .services .services-box-item-content {
 		   padding:15px;
 	   }
-	   
+
 	  .services .services-box-item-cover {
 		  display:none;
 	  }

@@ -19,7 +19,7 @@ body.blog-page article h4:hover,
 .comments-list .comment-reply,
 .blog .blog-content .blog-excerpt .meta a,
 .blog .blog-content .blog-excerpt span i, .blog-page .blog-content  span i,
-.blog-post .banner .content .top-text h4 i,
+.blog-post .banner .content ,
 .blog-post .post-author a,
 .blog-page .meta a,
 .blog-page .sidebar .widget:not(.widget-tags) ul li a:hover,
@@ -33,13 +33,14 @@ body.dark .nav-menu-icon.active a, body.dark .nav-menu-icon a.active, body.dark 
 .btn-wrapper a,
 .latest-post .post-title a:hover,
 body.dark .latest-post .post-title a:hover {
-    color: #9acd32;
+    color: #4CBB17;
+/*  #9acd32 */
 }
 .banner .breadcrumb>li a:hover,
 .custom-colorRotatingWords,
-.team .social-icons ul.social li a:hover,
+.team .social-icons ul.social li a:hover,.top-text h4 i,
 .team .social-icons ul.social li a:hover:before {
-	color: #9acd32 !important;
+	color: #4CBB17 !important;
 }
 .latest-post .post-date,
 .custom-button,
@@ -55,8 +56,8 @@ body.dark .latest-post .post-title a:hover {
 .blog-page ul.pagination li.active a:hover,
 body.dark.blog-page ul.pagination li.active a,
 body.dark.blog-page ul.pagination li.active a:hover,
-body.double-diagonal .about::before, 
-body.double-diagonal .services::before, 
+body.double-diagonal .about::before,
+body.double-diagonal .services::before,
 body.double-diagonal .portfolio::before,
 body.double-diagonal .team::before,
 body.double-diagonal .blog::before,
@@ -65,54 +66,54 @@ body.double-diagonal .logos::before,
 .team-member:hover .team-member-caption,
 .btn-wrapper a:hover,
 .widget-tags ul > li a:hover  {
-    background-color: #9acd32;
+    background-color: #4CBB17;
 }
 .widget-tags ul > li a:hover {
-	border:1px solid #9acd32;
+	border:1px solid #4CBB17;
 }
 .about-right-side .full-image-container.hovered:before  {
-	border-left: 5px solid #9acd32;
+	border-left: 5px solid #4CBB17;
 }
 .projectmanager blockquote,
 #quote-carousel .carousel-indicators .active {
-    border-color: #9acd32;
+    border-color: #4CBB17;
 }
 .blog-page ul.pagination li.active a, body.dark.blog-page ul.pagination li.active a  {
-	border-color: #9acd32;
+	border-color: #4CBB17;
 }
 .projectmanagerpicture {
-    border: 12px solid #9acd32;
+    border: 12px solid #4CBB17;
 }
 .portfolio .nav-pills li {
-    border: 2px solid #9acd32;
+    border: 2px solid #4CBB17;
 }
 #back-top a {
-    border: 2px solid #9acd32;
+    border: 2px solid #4CBB17;
 }
 .blog-page .banner .content .top-text hr {
-	border-top:5px solid #9acd32;
+	border-top:5px solid #4CBB17;
 }
 .portfolio .caption h3 {
-	border-left: 3px solid #9acd32;
+	border-left: 3px solid #4CBB17;
 }
 .team-member-caption {
-	border-top: 3px solid #9acd32;
+	border-top: 3px solid #4CBB17;
 }
 .social-icons ul.social-icons-team li a {
-	border: 2px solid #9acd32;
+	border: 2px solid #4CBB17;
 }
 .social-icons ul li a{
-    border: 3px solid #9acd32;
+    border: 3px solid #4CBB17;
 }
 .footer .social-icons ul li a {
-    border: 2px solid #9acd32;
+    border: 2px solid #4CBB17;
 }
 .footer {
-    border-top: 2px solid #9acd32;
+    border-top: 2px solid #4CBB17;
 }
 .social-icons ul.social-icons-team li a,
 .about .about-right-side:before {
-    border: 2px solid #9acd32;
+    border: 2px solid #4CBB17;
 }
 .preloader .loader {
   background-image: url(../../img/preloaders/preloader-yellowgreen-light.svg);
@@ -125,18 +126,18 @@ body.dark .preloader .loader {
   background-position: 50% 50%;
 }
 .btn-wrapper a {
-	border: 5px solid #9acd32;
+	border: 5px solid #4CBB17;
 }
 .rtl-version .about-right-side .full-image-container.hovered:before {
-	border-right: 5px solid #9acd32;
+	border-right: 5px solid #4CBB17;
 	border-left:0;
 }
 .rtl-version .projectmanager blockquote {
 	border-left: none;
-    border-right: 5px solid #9acd32;
+    border-right: 5px solid #4CBB17;
 }
 .rtl-version .portfolio .caption h3 {
-	border-right: 3px solid #9acd32;
+	border-right: 3px solid #4CBB17;
 }
 body.double-diagonal .about.safari::before {
 	background-image: url(../../img/safari-separators/separator-yellowgreen.png);
@@ -145,10 +146,10 @@ body.double-diagonal .about.safari::before {
 }
 @media (max-width:767px){
 	.social-icons ul li a {
-		border: 2px solid #9acd32;
+		border: 2px solid #4CBB17;
 	}
 	.about-right-side .full-image-container.hovered:before  {
-		border-top: 5px solid #9acd32;
+		border-top: 5px solid #4CBB17;
 		border-left:none;
 	}
 	.rtl-version .about-right-side .full-image-container.hovered:before {
@@ -157,7 +158,7 @@ body.double-diagonal .about.safari::before {
 }
 @media (max-width:576px){
 	.about ul.nav.nav-tabs li a.active {
-		background :#9acd32;
+		background :#4CBB17;
 		color:#fff;
 	}
 }
